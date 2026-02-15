@@ -3,7 +3,7 @@ const ctx=canvas.getContext("2d");
 canvas.width=window.innerWidth;
 canvas.height=window.innerHeight;
 
-const socket=new WebSocket("ws://"+location.host);
+const socket = new WebSocket("wss://your-render-service.onrender.com");
 
 let myId=null;
 let players={};
